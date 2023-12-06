@@ -32,7 +32,7 @@ while(True):
     print("Selling " + stickerName + "...", end = ' ')
 
     # Read Price
-    time.sleep(1) 
+    time.sleep(2) 
     price = driver.find_element(By.ID, "iteminfo0_item_market_actions").text.split("\n")
     price = price[1]
     price = price.split(" ")
